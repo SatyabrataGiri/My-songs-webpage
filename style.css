@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    height: 100%;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(255, 0, 102);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgb(64, 128, 248);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid rgb(73, 144, 237);
+    transition: 0.2s ease-in;
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+.one-section {
+    background-image: url(image/music.png);
+    height: 100vh;
+
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.one-section h1 {
+    font-size: 96px;
+}
+
+.hero-section h3 {
+    font-size: 32px;
+}
+
+.ipaid img {
+    height: 360px;
+    width: 700px;
+
+}
+
+.music {
+    padding-top: 20px;
+    background: rgb(254, 37, 69);
+}
+
+.music .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ipaid {
+    margin-top: -200px;
+    position: relative;
+    top: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.primary-btn {
+    background-color: red;
+    color: white;
+}
+
+
+.ringtone {
+    padding-top: 200px;
+    display: grid;
+     place-items: center;
+     gap:30px;
+}
+.secondary-btn{
+    background-color: rgb(232, 22, 26);
+    color: white;
+}
